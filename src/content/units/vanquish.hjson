@@ -1,0 +1,3 @@
+type: TankUnitType
+name: "vanquish"
+health: 100000
