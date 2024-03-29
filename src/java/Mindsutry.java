@@ -9,9 +9,9 @@ import mindustry.gen.*;
 import mindustry.mod.*;
 import mindustry.ui.dialogs.*;
 
-public class ExampleJavaMod extends Mod{
+public class Mindsutry extends Mod{
 
-    public ExampleJavaMod(){
+    public Mindsutry(){
         Log.info("Loaded Mindsutry");
 
         //listen for game load event
