@@ -15,10 +15,10 @@ public class Mindsutry extends Mod {
 
     public Mindsutry(){
         Log.info("Loaded Mindsutry");
-        for (int i = 1; i < 5; i++) {
+        /*for (int i = 1; i < 5; i++) {
             UnitTypes.vanquish.weapons.pop();
         }
-        
+        */
     }
 
 }
