@@ -8,7 +8,7 @@ name: "mindustry"
 author: "LeoMathGuy"
 
 #the fully qualified main class of the mod
-main: "java.Mindsutry"
+main: "nukethea.Mindsutry"
 
 #the mod description as seen in the mod dialog
 description: "Stupid stuff"
