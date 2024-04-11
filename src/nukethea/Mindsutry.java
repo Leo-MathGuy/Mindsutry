@@ -1,4 +1,4 @@
-package nukethea;
+    package nukethea;
 
 import arc.util.*;
 import arc.graphics.Color;
@@ -104,12 +104,12 @@ public class Mindsutry extends Mod {
 
         var dagger = UnitTypes.dagger;
         
-        dagger.speed = 3f;
-        ((BasicBulletType) dagger.weapons.get(0).bullet).width = 30f;
-        dagger.weapons.get(0).bullet.lifetime = 180f;        
-        dagger.weapons.get(0).bullet.speed = 1f;       
+        dagger.speed = 6f;
+        ((BasicBulletType) dagger.weapons.get(0).bullet).width = 60f;
+        dagger.weapons.get(0).bullet.lifetime = 360f;
+        dagger.weapons.get(0).bullet.speed = 2f;
 
-        dagger.legBaseOffset = 5f;
+        dagger.legBaseOffset = 10f;
         dagger.legMaxLength = 5f;
     }
 }
