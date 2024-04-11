@@ -107,6 +107,9 @@ public class Mindsutry extends Mod {
         dagger.speed = 3f;
         ((BasicBulletType) dagger.weapons.get(0).bullet).width = 30f;
         dagger.weapons.get(0).bullet.lifetime = 180f;        
-        dagger.weapons.get(0).bullet.speed = 1f;        
+        dagger.weapons.get(0).bullet.speed = 1f;       
+
+        dagger.legBaseOffset = 5f;
+        dagger.legMaxLength = 5f;
     }
 }
