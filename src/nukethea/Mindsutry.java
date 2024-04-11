@@ -21,6 +21,7 @@ public class Mindsutry extends Mod {
 
     public void loadContent() {
         Log.info("Loading vanquish mods...");
+        MSounds.load();
 
         for (int i = 1; i < UnitTypes.vanquish.weapons.size; i++) {
             var weapon = UnitTypes.vanquish.weapons.get(i);
