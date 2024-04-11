@@ -111,5 +111,7 @@ public class Mindsutry extends Mod {
 
         dagger.legBaseOffset = 10f;
         dagger.legMaxLength = 5f;
+
+        dagger.weapons.get(0).shootSound = Sounds.what-the-hell-meme-sound-effect;
     }
 }
