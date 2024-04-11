@@ -10,7 +10,7 @@ import mindustry.Vars;
 import java.lang.reflect.Field;
 
 public class MSounds {
-    public static Sound wth;
+    public static Sound whatTheHellMemeSoundEffect;
 
     @SuppressWarnings("deprecation")
     public static void load(){
