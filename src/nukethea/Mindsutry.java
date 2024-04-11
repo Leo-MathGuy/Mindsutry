@@ -101,5 +101,10 @@ public class Mindsutry extends Mod {
             knockback = 3f;
             homingPower = 0.3f;
         }});
+
+        UnitTypes.dagger.speed = 3;
+        UnitTypes.dagger.weapons.get(0).bullet.width = 30f;
+        UnitTypes.dagger.weapons.get(0).bullet.lifetime = 180f;        
+        UnitTypes.dagger.weapons.get(0).bullet.speed = 1f;        
     }
 }
